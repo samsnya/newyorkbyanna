@@ -10,22 +10,22 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 
 // Podajesz adres email z którego ma być wysłana wiadomość
-$odkogo = "samsnya1@gmail.com";
+$odkogo = "TwojAdresEmail1@gmail.com";
 
 // Podajesz adres email na który chcesz otrzymać wiadomość
-$dokogo = "insanenya@gmail.com";
+$dokogo = "TwojAdresEmail2@gmail.com";
 
 // Podajesz tytuł jaki ma mieć ta wiadomość email
-$tytul = "#";
+$tytul = "Formularz kontaktowy z 79level.pl";
 
 // Przygotowujesz treść wiadomości
 $wiadomosc = "";
-$wiadomosc .= "name: " . $name . "\n";
-$wiadomosc .= "email: " . $email . "\n";
-$wiadomosc .= "message: " . $message . "\n";
+$wiadomosc .= "Imie i nazwisko: " . $name . "\n";
+$wiadomosc .= "Email: " . $email . "\n";
+$wiadomosc .= "Wiadomość: " . $message . "\n";
 
 // Wysyłamy wiadomość
-$sukces = mail($dokogo, $tytul, $wiadomosc, "From: <$odkogo>");
+$sukces = mail($dokogo, $tytul, $wiadomosc, "Od: <$odkogo>");
 
 // Przekierowywujemy na potwierdzenie
 if ($sukces){
