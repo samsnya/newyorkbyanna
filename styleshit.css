@@ -1,0 +1,140 @@
+
+html, body
+{
+  margin: auto;
+  width: 100%;
+}
+
+
+#ny
+{
+  
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Bevan', cursive;
+}
+
+.navbar 
+{
+  margin-bottom: 2%;
+ 
+}
+
+
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+
+	line-height:30px;
+	color:#333;
+	background:;
+}
+
+.content
+{
+  display:flex;
+ 
+  align-items:center;
+  margin-top: 3%;
+  
+  
+}
+
+#zdj
+{
+  width:20%;
+}
+
+
+
+#photo /*I ADD THE SHADOWS TO PHOTO ONLY BECAUSE MY TEACHER SHELDON LOVES THE SHADOWS.;)*/
+{
+
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+
+
+img
+{
+  width: 100%;
+}
+
+#text
+{
+  margin-bottom: 5%;
+  flex-wrap:wrap;
+  background-color: ;
+  
+
+}
+
+#artykul
+{
+background-color: ;
+display: flex;
+align-content:center;
+}
+
+.textabout
+{
+  display: block;
+  background-color:;
+  
+}
+
+#textbb
+{
+ 
+}
+
+#footer
+{
+  margin-top: 5%; 
+  margin-bottom: 5%;
+}
+.back
+{
+  width: 20%;
+  display: flex;
+  justify-content:flex-end;
+}
+
+
+@media only screen and (min-width:450px)
+{
+  
+html, body
+{
+  margin: auto;
+  width: 91%;
+}
+
+#ny
+{
+  width: 60%;
+ }
+
+}
+
+  
+
+
+
+@media only screen and (min-width:600px)
+{
+ 
+html, body
+{
+  margin: auto;
+  width: 91%;
+}
+
+.back
+{
+   width: 10%;
+}
+
+}
